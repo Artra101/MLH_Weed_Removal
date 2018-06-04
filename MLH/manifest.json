@@ -1,0 +1,25 @@
+{
+ "package": "MLH_Weed_Removal",
+ "language": "python",
+ "author": "Artra101",
+ "description": "MLH for weed removal",
+ "version": "3.0.2",
+ "min_os_version_major": 6,
+ "url": "https://raw.githubusercontent.com/Artra101/MLH_Weed_Removal/master/MLH/manifest.json",
+ "zip": "https://github.com/Artra101/MLH_Weed_Removal/archive/master.zip",
+ "executable": "python",
+ "args": ["MLH_Weed_Removal-master/MLH/main.py"],
+ "config": [
+  {"name": "pointname", "label": "Filter by plant name", "value": "*"},
+  {"name": "filter_meta", "label": "Filter by meta data (see documentation)", "value": "None"},
+
+  {"name": "init", "label": "Init Sequence Name (one time)", "value": "None"},
+  {"name": "before", "label": "Sequence name Before Next Move  (each plant)", "value": "None"},
+  {"name": "after", "label": "Sequence Name After Move  (each plant)", "value": "None"},
+  {"name": "end", "label": "End Sequence Name (one time)", "value": "None"},
+
+  {"name": "save_meta", "label": "Save in meta data (see documentation)", "value": "None"},
+  {"name": "default_z", "label": "default Z axis value when moving", "value": -300},
+  {"name": "action", "label": "What to do (test, real)", "value": "test"}
+  ]
+}
